@@ -1,0 +1,46 @@
+.category_button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px 40px;
+    font-weight: 500;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid var(--second-color);
+    cursor: pointer;
+    transition: 0.3s all ease;
+    border-radius: 4px;
+
+    &:hover {
+        color: #fff;
+        background: var(--second-color);
+    }
+
+    @media (min-width: 992px) {
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 19px 65px;
+        font-weight: 500;
+        font-size: 17px;
+    }
+}
+
+.active_category {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    background: var(--second-color);
+    border: 1px solid var(--second-color);
+    border-radius: 4px;
+    cursor: pointer;
+
+    @media (min-width: 992px) {
+        margin-right: 20px;
+        margin-bottom: 20px;
+        padding: 19px 65px;
+        font-weight: 500;
+        font-size: 17px;
+    }
+}

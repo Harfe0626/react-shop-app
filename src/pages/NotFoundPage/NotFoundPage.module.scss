@@ -1,0 +1,13 @@
+.not_found {
+    img {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    a {
+        color: var(--hover-color);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
